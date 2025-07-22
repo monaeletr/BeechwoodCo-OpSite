@@ -1,31 +1,38 @@
 import { Outlet, Link } from 'react-router-dom';
+import backgroundImage from './images/realbackground.png';
 import './App.css';
-import './index.css'
 
 function MainLayout() {
   return (
-    <div className="style">
-      <div className="bg"></div>
+    <div style={{
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      minHeight: "100vh",
+      width: "100%"
+    }}>
       
-      <Link to="/HomePage" className="home-box">
-        <div class="home-text">Home</div>
+      <Link to="/" className="home-box">
+        <div className="home-text">Home</div>
       </Link>
 
-      <Link to="/AboutCoOps" className="about-box">
-        <div class="about-text">About Co-Ops</div>
+      <Link to="/aboutco-ops" className="about-box">
+        <div className="about-text">About Co-Ops</div>
       </Link>
 
       <Link to="/ApplicationProcess" className="application-box">
-        <div class="application-text">Application Process</div>
+        <div className="application-text">Application Process</div>
       </Link>
 
       <Link to="/Resources" className="resource-box">
-        <div class="resource-text">Resources</div>
+        <div className="resource-text">Resources</div>
       </Link>
 
       <Link to="/ContactUs" className="contact-box">
-        <div class="contact-text">Contact Us</div>
+        <div className="contact-text">Contact Us</div>
       </Link>
+      <Outlet />
     </div>
   );
 }

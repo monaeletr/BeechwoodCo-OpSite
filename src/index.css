@@ -12,11 +12,11 @@ code {
     monospace;
 }
 
-.bg{
+/* .bg{
   background-image: url('./images/realbackground.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
   margin: 0;
-}
+} */
