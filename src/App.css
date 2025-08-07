@@ -1,6 +1,6 @@
-/* .App {
+.App {
   text-align: center;
-} */
+}
 
 /* .body{
   background-image: url('./images/realbackground.png');
@@ -18,7 +18,7 @@
   border-radius: 12px;
   position: absolute;
   top: 34px;
-  right: 1060px;
+  right: 1032px;
 }
 
 .home-text{
@@ -44,7 +44,7 @@
 .about-text{
   position:absolute;
   top: 5.5%;
-  left: 45.5%;
+  left: 47.2%;
   transform: translate(-50%, -50%);
   font-size: 33px;
   font-style: italic;
@@ -64,7 +64,7 @@
 .application-text{
   position:absolute;
   top: 5.5%;
-  left: 62.5%;
+  left: 64.5%;
   transform: translate(-50%, -50%);
   font-size: 33px;
   font-style: italic;
@@ -84,7 +84,7 @@
 .resource-text{
   position:absolute;
   top: 5.5%;
-  left: 78%;
+  left: 79.5%;
   transform: translate(-50%, -50%);
   font-size: 33px;
   font-style: italic;
@@ -109,4 +109,61 @@
   font-size: 33px;
   font-style: italic;
   color:black;
+}
+
+.top-left-logo{
+position: absolute;
+top: -48px;
+left: -8px;
+width: 2x;
+height:22%;
+z-index: 1;
+}
+
+/* .new-member-res{
+  width: 750px;
+  height: 35px;
+  background-color: #f3f2f2;
+  border-radius: 12px;
+  top: 760px;
+  right: 800px;
+}
+
+.new-member-res-text{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+} */
+
+.new-member-button{
+position: absolute;
+top: 800px;
+left: 630px;
+width: 2x;
+height:7%;
+z-index: 1;
+}
+
+.welcome-text{
+  position: absolute;
+  top: 240px;
+  left: 362px;
+  width: 2x;
+  height:40%;
+  z-index: 1;
+}
+
+.welcomesubtitle-text{
+  position:absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif;
+  font-style:normal;
+  color:#122F0F;
 }

@@ -1,5 +1,6 @@
 import { Outlet, Link } from 'react-router-dom';
 import backgroundImage from './images/realbackground.png';
+import beechwoodLogo from './images/clearbeechwoodlogo.png';
 import './App.css';
 
 function MainLayout() {
@@ -31,6 +32,11 @@ function MainLayout() {
 
       <Link to="/ContactUs" className="contact-box">
         <div className="contact-text">Contact Us</div>
+      </Link>
+      <Link to="/" className="BeechwoodBox">
+        <div className="BeechwoodLogo">
+          <img src={beechwoodLogo}  alt="Beechwood Co-Op" className="top-left-logo" />
+        </div>
       </Link>
       <Outlet />
     </div>
