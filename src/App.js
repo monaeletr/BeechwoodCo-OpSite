@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import MainLayout from './MainLayout';
 import HomePage from './HomePage';
 import About from './About';
 import ContactUs from './ContactUs';
 import ApplicationProcess from './ApplicationProcess';
 import Resources from './Resources';
+
 
 function App() {
   return (
