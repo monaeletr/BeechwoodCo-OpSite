@@ -11,7 +11,7 @@ function ContactPage() {
           <img src={contactus}  alt="." className="contact-us-text" />
         </div>
       </Link>
-      <div className="rightSide">
+      {/* <div className="rightSide">
 
             <form id="contact-form" method="POST">
                 <label htmlFor="name">Full Name</label>
@@ -28,7 +28,7 @@ function ContactPage() {
                 </textarea>
                 <button type="submit"> Send Message </button>
             </form>
-      </div>
+      </div> */}
       <Outlet />
     </div>
     

@@ -215,3 +215,43 @@ html, body {
     cursor: pointer;
   }
 
+.white-center{
+  width: 2000px;
+  height: 450px;
+  background-color: #f3f2f2;
+  border-radius: 0px;
+  position: absolute; /* Important */
+  top: 560px;
+  right: 0px;
+  z-index: 1;
+}
+
+.resource-btn {
+  background-color: #dbe5d6;
+  color: #294429;
+  font-size: 1.3rem;
+  padding: 15px 20px;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+
+.resource-btn:hover {
+  background-color: #c5d3c1;
+}
+
+.mt-6 {
+  margin-top: 33rem; /* Adjust the value as needed */
+}
+
+
+.ResourcesText{
+  position: absolute;
+  top: 295px;
+  left: 530px;
+  width: 2x;
+  height:10%;
+  z-index: 0;
+}
