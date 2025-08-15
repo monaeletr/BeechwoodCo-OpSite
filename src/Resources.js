@@ -22,7 +22,7 @@ export default function Resources() {
 
   const resources = [
     { 
-      title: "By-Laws",  
+      title: "By-Laws & Policies",  
       links: [
         { label: "General Bylaw", url: "./files/1Bylaw-1-General.pdf" },
         // { label: "COCHF", url: "https://cochf.coop/" }
@@ -34,12 +34,30 @@ export default function Resources() {
         { label: "Social Housing Act", url: "/files/7Bylaw-7-Social-Housing-Act-Compliance.pdf" },
         { label: "Human Rights Bylaw", url: "/files/8Bylaw-8-Human-Rights.pdf" },
         { label: "Investment Bylaw", url: "/files/8Bylaw-8-Investment.pdf" },
-
+        { label: "Condust of Board Members Policy", url: "./files/Conduct-of-Board-Members-Policy.pdf" },
+        { label: "Conflict of Interest Policy", url: "/files/Conflict-of-Interest-Policy.pdf "},
+        { label: "Customer Service Policy", url: "/files/Customer-Service-Policy.pdf" },
+        { label: "Fence Guidelines Policy", url: "/files/Fence-Guidelines-Policy.pdf" },
+        { label: "Guidelines for Committees Policy", url: "/files/Guideline-for-Committees-Policy.pdf" },
+        { label: "Grievance Policy", url: "/files/Grievance-Policy.pdf" },
+        { label: "Housing Charge Payment Policy", url: "/files/Housing-Charge-Payment-Policy.pdf" },
       ] 
     },
     { 
       title: "Office Hours", 
       text: "Our office is open Monday, Tuesday, and Thursday from 12:00pm-4:00pm" },
+    { 
+      title: "Forms",
+      links: [
+        { label: "Addition to RGI Household", url: "/files/rgihousehold.pdf" },
+        { label: "Maintenance Request/Work Order", url: "/files/Maintanance-request-form.pdf" },
+        { label: "Community Centre Rental Agreement", url: "/files/communitycenterrental.pdf" },
+        { label: "Member Concern", url: "/files/MEMBER-CONCERN-FORM.pdf" },
+        { label: "Pet Registration", url: "/files/Pet-Registration-Form.pdf" },
+        { label: "Vehichle Registration", url: "/files/Vehicle-Registration-Form.pdf" },
+      ] 
+    },
+    
     { 
       title: "Grocery Stores", 
       img: groceryStoresImg, 
@@ -72,8 +90,13 @@ export default function Resources() {
         { label: "Waterloo Collegiate Institute", url: "https://wci.wrdsb.ca" },
       ]
      },
-    { title: "Utilities", img: utilitiesImg },
-    { title: "Work Orders", img: workOrdersImg },
+    
+
+    { 
+      title: "Utilities",
+      links: [
+      ]
+     },
     { title: "Board of Directors", img: boardImg },
     { title: "FAQs", img: faqsImg },
   ];
